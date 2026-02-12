@@ -1,0 +1,16 @@
+I want you to look at the following playwright cli library: https://github.com/microsoft/playwright-cli
+
+I also want you to look at the two examples of structured outputs coming from claude code in the claude_structured_client.py and test_claude_structured_output.py files in this directory. 
+
+I want you to create a python script which kicks off claude code using the playwright-cli to go to OpenAI's website and scrape all of the prices for all of the models listed anywhere on the site. This means that the claude code instance will need to research things like per-region pricing for each of the models. 
+
+Interaction with the website is driven by the playwright CLI. 
+
+The claude code session must then output all of its results into a JSON with a structured outputs schema 
+
+That schema should include:
+1. The model name
+2. Region (global or region specific)
+3. An array of unit types, such as Input/Cached Input/Output/etc, with each item in the array having the price 
+
+Ask me any questions you have until you are 99% sure you can accomplish this. 

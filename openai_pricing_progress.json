@@ -1,0 +1,944 @@
+{
+  "models": [
+    {
+      "model_name": "babbage-002",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.0000004"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.0000004"
+        }
+      ]
+    },
+    {
+      "model_name": "chatgpt-4o-latest",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.000005"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.000015"
+        }
+      ]
+    },
+    {
+      "model_name": "chatgpt-image-latest",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.000005"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.00000125"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.00001"
+        },
+        {
+          "unit_type": "Image Input",
+          "price": "0.000008"
+        },
+        {
+          "unit_type": "Image Cached input",
+          "price": "0.000002"
+        },
+        {
+          "unit_type": "Image Output",
+          "price": "0.000032"
+        }
+      ]
+    },
+    {
+      "model_name": "codex-mini-latest",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.0000015"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.000000375"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.000006"
+        }
+      ]
+    },
+    {
+      "model_name": "computer-use-preview",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.000003"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.000012"
+        }
+      ]
+    },
+    {
+      "model_name": "dall-e-2",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Per Image (Standard 1024x1024)",
+          "price": "0.016"
+        },
+        {
+          "unit_type": "Per Image (Standard 1024x1536)",
+          "price": "0.018"
+        },
+        {
+          "unit_type": "Per Image (Standard 1536x1024)",
+          "price": "0.02"
+        }
+      ]
+    },
+    {
+      "model_name": "dall-e-3",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Per Image (Standard 1024x1024)",
+          "price": "0.04"
+        },
+        {
+          "unit_type": "Per Image (Standard 1024x1536)",
+          "price": "0.08"
+        },
+        {
+          "unit_type": "Per Image (Standard 1536x1024)",
+          "price": "0.08"
+        },
+        {
+          "unit_type": "Per Image (HD 1024x1024)",
+          "price": "0.08"
+        },
+        {
+          "unit_type": "Per Image (HD 1024x1536)",
+          "price": "0.12"
+        },
+        {
+          "unit_type": "Per Image (HD 1536x1024)",
+          "price": "0.12"
+        }
+      ]
+    },
+    {
+      "model_name": "davinci-002",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.000002"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.000002"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-3",
+      "region": "global",
+      "pricing": []
+    },
+    {
+      "model_name": "gpt-4",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.00003"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.00006"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-4-turbo",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.00001"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.00003"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-4-turbo-preview",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.00001"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.00003"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-4o",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.0000025"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.00000125"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.00001"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-4o-audio-preview",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.0000025"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.00001"
+        },
+        {
+          "unit_type": "Audio Input",
+          "price": "0.00004"
+        },
+        {
+          "unit_type": "Audio Output",
+          "price": "0.00008"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-4o-mini",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.00000015"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.000000075"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.0000006"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-4o-mini-audio-preview",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.00000015"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.0000006"
+        },
+        {
+          "unit_type": "Audio Input",
+          "price": "0.00001"
+        },
+        {
+          "unit_type": "Audio Output",
+          "price": "0.00002"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-4o-mini-realtime-preview",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.0000006"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.0000003"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.0000024"
+        },
+        {
+          "unit_type": "Audio Input",
+          "price": "0.00001"
+        },
+        {
+          "unit_type": "Audio Cached input",
+          "price": "0.0000003"
+        },
+        {
+          "unit_type": "Audio Output",
+          "price": "0.00002"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-4o-mini-search-preview",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.00000015"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.0000006"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-4o-mini-transcribe",
+      "region": "global",
+      "pricing": []
+    },
+    {
+      "model_name": "gpt-4o-mini-tts",
+      "region": "global",
+      "pricing": []
+    },
+    {
+      "model_name": "gpt-4o-realtime-preview",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.000005"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.0000025"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.00002"
+        },
+        {
+          "unit_type": "Audio Input",
+          "price": "0.00004"
+        },
+        {
+          "unit_type": "Audio Cached input",
+          "price": "0.0000025"
+        },
+        {
+          "unit_type": "Audio Output",
+          "price": "0.00008"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-4o-search-preview",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.0000025"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.00001"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-4o-transcribe",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.0000025"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.00001"
+        },
+        {
+          "unit_type": "Audio Input",
+          "price": "0.000006"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-4o-transcribe-diarize",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.0000025"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.00001"
+        },
+        {
+          "unit_type": "Audio Input",
+          "price": "0.000006"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-5",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.00000125"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.000000125"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.00001"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-5-chat-latest",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.00000125"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.000000125"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.00001"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-5-codex",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.00000125"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.000000125"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.00001"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-5-mini",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.00000025"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.000000025"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.000002"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-5-nano",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.00000005"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.000000005"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.0000004"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-5-pro",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.000015"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.00012"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-audio",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.0000025"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.00001"
+        },
+        {
+          "unit_type": "Audio Input",
+          "price": "0.000032"
+        },
+        {
+          "unit_type": "Audio Output",
+          "price": "0.000064"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-audio-mini",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.0000006"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.0000024"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-image-1",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.000005"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.00000125"
+        },
+        {
+          "unit_type": "Image Input",
+          "price": "0.00001"
+        },
+        {
+          "unit_type": "Image Cached input",
+          "price": "0.0000025"
+        },
+        {
+          "unit_type": "Image Output",
+          "price": "0.00004"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-image-1-mini",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.000002"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.0000002"
+        },
+        {
+          "unit_type": "Image Input",
+          "price": "0.0000025"
+        },
+        {
+          "unit_type": "Image Cached input",
+          "price": "0.00000025"
+        },
+        {
+          "unit_type": "Image Output",
+          "price": "0.000008"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-oss-120b",
+      "region": "global",
+      "pricing": []
+    },
+    {
+      "model_name": "gpt-oss-20b",
+      "region": "global",
+      "pricing": []
+    },
+    {
+      "model_name": "gpt-realtime",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.000004"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.0000004"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.000016"
+        },
+        {
+          "unit_type": "Audio Input",
+          "price": "0.000032"
+        },
+        {
+          "unit_type": "Audio Cached input",
+          "price": "0.0000004"
+        },
+        {
+          "unit_type": "Audio Output",
+          "price": "0.000064"
+        },
+        {
+          "unit_type": "Image Input",
+          "price": "0.000005"
+        },
+        {
+          "unit_type": "Image Cached input",
+          "price": "0.0000005"
+        }
+      ]
+    },
+    {
+      "model_name": "gpt-realtime-mini",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.0000006"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.00000006"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.0000024"
+        }
+      ]
+    },
+    {
+      "model_name": "o1",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.000015"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.0000075"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.00006"
+        }
+      ]
+    },
+    {
+      "model_name": "o1-mini",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.0000011"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.00000055"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.0000044"
+        }
+      ]
+    },
+    {
+      "model_name": "o1-preview",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.000015"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.0000075"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.00006"
+        }
+      ]
+    },
+    {
+      "model_name": "o1-pro",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.00015"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.0006"
+        }
+      ]
+    },
+    {
+      "model_name": "o3",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.000002"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.0000005"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.000008"
+        }
+      ]
+    },
+    {
+      "model_name": "o3-deep-research",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.00001"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.0000025"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.00004"
+        }
+      ]
+    },
+    {
+      "model_name": "o3-mini",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.0000011"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.00000055"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.0000044"
+        }
+      ]
+    },
+    {
+      "model_name": "o3-pro",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.00002"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.00008"
+        }
+      ]
+    },
+    {
+      "model_name": "o4-mini",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.0000011"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.000000275"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.0000044"
+        }
+      ]
+    },
+    {
+      "model_name": "o4-mini-deep-research",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.000002"
+        },
+        {
+          "unit_type": "Cached input",
+          "price": "0.0000005"
+        },
+        {
+          "unit_type": "Output",
+          "price": "0.000008"
+        }
+      ]
+    },
+    {
+      "model_name": "omni-moderation-latest",
+      "region": "global",
+      "pricing": []
+    },
+    {
+      "model_name": "sora-2",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Per Second (Portrait: 720x1280 Landscape: 1280x720)",
+          "price": "0.10"
+        }
+      ]
+    },
+    {
+      "model_name": "sora-2-pro",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Per Second (Portrait: 720x1280 Landscape: 1280x720)",
+          "price": "0.30"
+        }
+      ]
+    },
+    {
+      "model_name": "text-embedding-3-large",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.00000013"
+        }
+      ]
+    },
+    {
+      "model_name": "text-embedding-3-small",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.00000002"
+        }
+      ]
+    },
+    {
+      "model_name": "text-embedding-ada-002",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Input",
+          "price": "0.0000001"
+        }
+      ]
+    },
+    {
+      "model_name": "text-moderation-latest",
+      "region": "global",
+      "pricing": []
+    },
+    {
+      "model_name": "text-moderation-stable",
+      "region": "global",
+      "pricing": []
+    },
+    {
+      "model_name": "tts-1",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Speech generation",
+          "price": "0.000015"
+        }
+      ]
+    },
+    {
+      "model_name": "tts-1-hd",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Speech generation",
+          "price": "0.00003"
+        }
+      ]
+    },
+    {
+      "model_name": "whisper-1",
+      "region": "global",
+      "pricing": [
+        {
+          "unit_type": "Transcription",
+          "price": "0.000000006"
+        }
+      ]
+    }
+  ],
+  "last_updated": "2026-02-12T22:03:08.847912+00:00",
+  "status": "completed"
+}

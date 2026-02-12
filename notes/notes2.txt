@@ -1,0 +1,5 @@
+augment the script in 2 ways.
+
+first, when each model page is being scraped, the playwright CLI must be used to take a screenshot of that page, which is stored in the output directory (put all of the files for each run in its own sub-folder in the output folder)
+
+second, the scraped prices shouldn't be expressed as "price": "$3.75 / 1M tokens", instead it should be the raw price, so "0.00000375". It can still be a "string" type in the schema to preserve accuracy for very small decimals. 
